@@ -1,0 +1,164 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.6;
+	color: bisque;
+	margin: 0;
+	text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+	font-size: .95em;
+	margin: 0 0 1em 0;
+}
+h2,
+h3,
+a {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+	line-height: 26.4px;
+    text-align: center;
+}
+h2,
+h3 {
+	margin: 0 0 .8em 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.35em;
+	margin: 0;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.main-nav a {
+	font-size: .95em;
+	color: #493025;
+	background-color: bisque;
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	color: burlywood;
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+.banner,
+.main-footer {
+	text-align: center;
+}
+.banner {
+	color: bisque;
+	background: #493025;
+	padding: 3.2em 0;
+	margin-bottom: 48px;
+}
+.col {
+	padding: 1em;
+	background: #493025a9;
+	border-radius: 1em;
+	margin: 0 .5em .8em;
+}
+.main-footer {
+	background: #493025;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+.instagramicon {
+	width: 100%;
+	max-width: 25px;
+}
+.youtubeicon {
+	width: 100%;
+	max-width: 25px;
+
+/* ---- Page Elements ---- */
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+}
+.headline {
+	margin-bottom: 0;
+}
+.feat-img {
+	border-radius: 5px;
+}
+input[type=email]{
+	-webkit-appearance: none;
+	appearance: none;
+  
+	width: 100%;
+	border: 1px solid #333;
+	margin: 0;
+  
+	font-family: inherit;
+	font-size: 90%;
+  
+	box-sizing: border-box;
+  }
+  
+  /* This is our style for the invalid fields */
+  input:invalid{
+	border-color: #900;
+	background-color: #FDD;
+  }
+  
+  input:focus:invalid {
+	outline: none;
+  }
+  
+  /* This is the style of our error messages */
+  .error {
+	width  : 100%;
+	padding: 0;
+  
+	font-size: 80%;
+	color: white;
+	background-color: #900;
+	border-radius: 0 0 5px 5px;
+  
+	box-sizing: border-box;
+  }
+  
+  .error.active {
+	padding: 0.3em;
+  }
