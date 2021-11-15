@@ -9,11 +9,22 @@
 	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/css/style.css">
 	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/css/normalize.css">
 	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/css/flexbox.css">
+	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/weatherwidget.css">
 	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/countdown.js">
+	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/vault.js">
 	<link rel="stylesheet" type="text/css" href="photostyle.css" />
 </head>
 <body>
 	<style>
+		<h1>Horizontal display</h1>
+    <div class="horizontalweatherForecast" data-key="QQP3B6DH7RX8523H7SYLKXELN" data-location="New York, NY"></div>
+    <h1>Vertical display</h1>
+    <div class="verticalweatherForecast" data-key="QQP3B6DH7RX8523H7SYLKXELN" data-location="London, UK" data-unitGroup="metric"></div>
+    
+    <script>
+        WeatherForecastDisplay.attach(".horizontalweatherForecast");
+        WeatherForecastDisplay.attach(".verticalweatherForecast");
+    </script>
 		p {
   text-align: center;
   font-size: 60px;

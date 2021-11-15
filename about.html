@@ -2,6 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matt Vintage Air Guitars</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic)" rel="stylesheet"> 
+	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/css/style.css">
+	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/css/normalize.css">
+	<link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/css/flexbox.css">
+    <link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/vaultstyle.css">
+    <link rel="stylesheet" href="/Users/mattleezer/Documents/GitHub/javascript2021/vault.js">
+</head>
+<style>
+    body {
+      background-image: url('/Users/mattleezer/Documents/GitHub/javascript2021/img/amps.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    </style>
+    <header class="main-header">
+		<img class="logo" src="/Users/mattleezer/Desktop/javascriptproject2021/img/mattairguitalogo.png">
+		<ul class="main-nav">
+			<li><a href="/Users/mattleezer/Documents/GitHub/javascript2021/about.html">About</a></li>
+			<li><a href="#">Fifties To Sixties</a></li>
+			<li><a href="#">Seventies To Eighties</a></li>
+			<li><a href="/Users/mattleezer/Documents/GitHub/javascript2021/thevault.html">The Vault</a></li>
+		</ul>
 
     <title>Our superheroes</title>
 
@@ -23,7 +50,7 @@
     const header = document.querySelector('header');
     const section = document.querySelector('section');
 
-    let requestURL = 'https://github.com/mrleezer0/javascript2021/blob/main/about.json';
+    let requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
     let request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
