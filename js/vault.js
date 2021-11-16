@@ -12,12 +12,12 @@ const imageArray = [
   "https://media.sweetwater.com/api/i/f-webp__b-original__w-215__h-215__bg-ffffff__q-85__ha-9c6a866f646c9f0f__hmac-3fd40ea6a90b020a54d9d4aee0668daa10d17be3/images/items/350/0991017500.jpg.auto.webp",
   "https://media.sweetwater.com/api/i/f-webp__b-original__w-215__h-215__bg-ffffff__q-85__ha-2a817e36b96e169c__hmac-4f20d1086d7d8c275dd73ae98e73292368168c42/images/items/350/1401Stand.jpg.auto.webp",
   "https://media.sweetwater.com/api/i/f-webp__b-new__w-215__h-215__bg-ffffff__q-85__ha-3774db90a91dcfe0__hmac-8c6d4062207eaf9919ad10c3b57ab5089dbfc6cd/images/items/350/HangStdMpl.jpg.auto.webp",
-  "https://images.unsplash.com/photo-1476547362848-ed2a9f99cd29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b4647c9e25267c25866936c916e4aa8&auto=format&fit=crop&w=1350&q=80",
-  "https://images.unsplash.com/photo-1506017669510-0bcbe8003d70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9403f5d4ac23a5726bfc3c8308b31c01&auto=format&fit=crop&w=1350&q=80",
-  "https://images.unsplash.com/photo-1489447068241-b3490214e879?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a85cb0d68de38ae2aa00d8a9663a320a&auto=format&fit=crop&w=1350&q=80"
+  "https://media.sweetwater.com/api/i/f-webp__q-82__ha-9f4a279f9d17a2f1__hmac-2e84ef51e3a3378d2f12a88672dc73e813dd3019/images/items/750/FGHNGRSMBN-large.jpg.auto.webp",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCtkOqOwp0pdQj536bGuz6K-blcTE9FTKy4g&usqp=CAU",
+  "https://www.guitarfetish.com/assets/images/thumbnails/L104_thumbnail.jpg"
 ];
 
-const image = document.querySelector("image");
+const image = document.querySelector("img");
 const button = document.querySelector("button");
 
 window.onload = () => generateRandomPicture(imageArray);
