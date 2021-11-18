@@ -45,12 +45,20 @@
 		<a href="https://www.youtube.com/user/worldairguitar"><img class="youtubeicon" src="/Users/mattleezer/Desktop/javascriptproject2021/img/iconmonstr-youtube-5-240.png"></a>
 		<div class="banner">
 
-			<h1>Subscribe to our newsletter</h1>
-        <form id="mail">
-		<label for="mail"> Email: </label>
-		<input type="text" id="mail" name="email"><br>
-		<input type="submit" value="Submit">
-	  </form> 
+			<body onload='document.form1.text1.focus()'>
+				<div class="mail">
+				<h1>Subscribe to our newsletter</h1>
+				<form name="form1" action="#"> 
+				<ul>
+				<li><input type='text' name='text1'/></li>
+				<li>&nbsp;</li>
+				<li class="submit"><input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/></li>
+				<li>&nbsp;</li>
+				</ul>
+				</form>
+				</div>
+				<script src="email.js"></script>
+				</body> 
 	</footer>
   </body>
 </html>

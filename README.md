@@ -1,5 +1,6 @@
 # javascript2021
-Project for 2021 Javascript Class
+Matt Leezer's Project for 2021 Javascript Class
+
 For this project I have continued to bring to light the magical and majestic instrument that is called "The Air Guitar".
 Right now I am developing an online retail presence to show and sell many vintage varities of the air guitar, also
 along with the financial wing of the website, I wanted to highlight some amazing players, videos, etc.
