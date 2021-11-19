@@ -105,9 +105,11 @@ img {
 }
 .banner {
 	color: bisque;
-	background: #493025;
-	padding: 3.2em 0;
-	margin-bottom: 48px;
+	background: #493025a9;
+	padding: 1em;
+	border-radius: 1em;
+	margin: 0 .5em .08em;
+	margin-bottom: 10px;
 }
 .col {
 	padding: 1em;
@@ -116,9 +118,10 @@ img {
 	margin: 0 .5em .8em;
 }
 .main-footer {
-	background: #493025;
-	padding: 2em 0;
-	margin-top: 30px;
+	background: #493025a9;;
+	padding: 1em;
+	border-radius: 1em;
+	margin-bottom: 10px;
 }
 .instagramicon {
 	width: 100%;

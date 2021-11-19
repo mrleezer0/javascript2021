@@ -1,6 +1,6 @@
 /*Media Queries */
 
-@media (min-width: 738px) {
+@media (min-width: 878px) {
 	.backgroundimage {
 		flex-direction: column;
 		justify-content: space-between;
@@ -23,6 +23,11 @@
 		flex: 1;
   flex-direction: column;
 	}
+	.main-footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
 	@media (min-width: 1025px) {
 	
 		.backgroundimage {
@@ -35,13 +40,16 @@
 			flex-direction: column;
 			justify-content: space-between;
 		}
+
 		.logo {
 			width: 100%;
 			max-width: 300px;
 			padding: 1rem;
 		}
 		.main-footer {
-			flex-direction: row;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
 		}
 
 	@media (min-width: 1066px) {
@@ -61,7 +69,9 @@
 			padding: 1rem;
 		}
 		.main-footer {
-			flex-direction: row;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
 		}
 
 }
